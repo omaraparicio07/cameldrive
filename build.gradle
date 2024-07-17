@@ -22,6 +22,7 @@ dependencies {
 	implementation 'org.apache.groovy:groovy'
 	implementation 'org.apache.camel.springboot:camel-spring-boot-starter:4.7.0'
 	implementation 'org.apache.camel:camel-google-drive:4.7.0'
+	implementation 'org.apache.camel:camel-github:4.7.0'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'

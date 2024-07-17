@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.context.annotation.ComponentScan
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.soaq.cameldrive.routes")
+@ComponentScan(basePackages = "com.soaq.cameldrive")
 class CameldriveApplication {
 
 	static void main(String[] args) {
